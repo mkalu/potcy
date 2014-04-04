@@ -3,6 +3,7 @@
 	<title>POT.CY</title>
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet" type="text/css" />
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href='dist/css/bootstrap.css' rel='stylesheet'>
 	<style>
 		body {
 			text-align: center;
@@ -11,10 +12,10 @@
 		}
 		#spiel {
 			text-align: justify;
-			margin: 20px 50px 10px 50px;
+			margin: 50px 35px 10px 35px;
 		}
 		#top {
-			margin-top: 60px;
+			margin-top: 30px;
 			margin-bottom: 0px;
 		}
 		#title {
@@ -25,12 +26,12 @@
 			font-size: 23px;
 		}
 		#stands_for {
-			margin-top: 5px;
+			margin-top: 15px;
 			font-size: 34px;
 			margin-bottom: 13px;
 		}
 		.contact {
-			margin-top: 60px;
+			margin-top: 30px;
 		}
 		.contact a {
 			display: inline;
@@ -46,7 +47,7 @@
             margin-left: 10px;
         }
         #line {
-            margin-top: 5px;
+            margin-top: -11px;
             margin-bottom: 20px;
             border: 0;
             border-top: 3px solid rgb(0, 255, 0);
@@ -55,27 +56,40 @@
         ul {
         	padding: 0px;
         }
-        #wiki {
+        .wiki {
         	color: rgb(51, 51, 51);
         	border-bottom:1px dotted rgb(51, 51, 51);
     		text-decoration: none;
         }
-        #wiki:hover {
+        .wiki:hover {
 			color: rgb(0, 255, 0);
 			border-bottom:1px dotted rgb(0, 255, 0);
 			text-decoration: none;
 			font-weight: bold;
         }
+        #top {
+        	background-image: url(londonskycrop.jpg);
+            background-size: cover;
+
+            background-position: center;
+            height: 100%;
+            color: white;
+        }
 	</style>
 </head>
 <body>
+	<div class="container">
 	<div>
-		<p id="spiel">We <strong>LOVE the city</strong> but don't think it can continue to grow as it has . We <strong>LOVE food</strong> but don't believe it can keep being produced and consumed as it is . <strong>So we started...</strong></p>
-		<p id="top"><span id="title">POT.CY</span>/pot.si:/</p>
+		<p id="spiel">We <strong>LOVE the city</strong> but don't think it can continue to grow like it does . We <strong>LOVE food</strong> but don't believe it can keep being produced and consumed as it is . <strong>So we started...</strong></p>
+	</div>
+	<div class="banner">
+		<p id="top"><span id="title">POT.CY</span><strong>/pot.si:/</strong></p>
 		<p id="stands_for">Product Of The City</p>
 		<hr id="line">
+	</div>
+	<div>
 		<!--<p>A collective of urban food related projects and enterprises.</p>-->
-		<p>We're testing the potential of <a href="http://en.wikipedia.org/wiki/Urban_agriculture" target="_blank" id="wiki">urban food</a> in London through research and business building.<br> If you have a project or just an interest in the future of food in the city, <strong>Get in Touch.</strong></p>
+		<p>We're testing the potential of <a href="http://en.wikipedia.org/wiki/Urban_agriculture" target="_blank" class="wiki">urban food</a> in London through research and <a href="http://twitter.com/potcycoldstore" target="_blank" class="wiki">business building</a>.<br> If you have a project or just an interest in the future of food in the city, <strong>Get in Touch.</strong></p>
 	</div>
     <div class="contact">
         <ul>
@@ -83,5 +97,6 @@
             <!--<li><a class="fa fa-twitter-square fa-3x" href="http://twitter.com" target="_blank"></a></li>
             <li><a class="fa fa-facebook-square fa-3x" href="http://facebook.com"  target="_blank"></a></li>-->
         </ul>
+    </div>
     </div>
 </body>
